@@ -38,6 +38,13 @@ function reportHealth(){
   }
 }
 function update(){
-  
-}
+  Math.random(0, 1);
+  if(r > seeds[i]){
+    seeds[i] = r;
+
+  }
+  else(r < 0.03)
+    seeds[i] = null;
+    percent[i] = 0;
+  }
 }
